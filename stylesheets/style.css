@@ -1,0 +1,234 @@
+/* Reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*main Styling*/
+
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+    background-color: rgb(255, 255, 255);
+    max-height: 800px;
+    font-style: italic;
+    background-image: url("/..image/green1.jpg");
+}
+
+.background {
+    max-height: 800px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+
+/* utility classes*/
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    ;
+    overflow: auto;
+    padding: 0 20px;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-primary {
+    color: rgb(76, 197, 20);
+    ;
+}
+
+.text-tertiary {
+    color: rgb(255, 255, 255);
+    ;
+}
+
+.text-secondary {
+    color: #4fd4d4;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-table;
+    font-size: 18px;
+    text-align: right;
+    border: 5px solid rgba(0, 0, 0, 0.616);
+    background: rgba(165, 233, 238, 0.801);
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+    align-self: auto;
+}
+
+.btn:hover {
+    background-image: url('image/.LOGO.png');
+    padding: 20px;
+}
+
+.controller {
+    font-size: 18px;
+    float: left;
+    max-width: auto;
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(0, 194, 65);
+    border: 5px solid rgba(255, 255, 255, 0.726);
+    margin: auto;
+    max-width: 150px;
+    ;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+#info {
+    float: right;
+    margin-right: 80px;
+    font-size: 18px;
+    max-width: 200px;
+    background-color: #15828a;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 2000px;
+}
+
+.controller h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    color: gold;
+}
+
+.signup-box {
+    background-origin: padding-box;
+}
+
+
+/*navbar*/
+
+#navbar {
+    background: #067e00d2;
+    color: rgb(146, 213, 113);
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+    position: relative;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(118, 194, 194);
+    color: #333;
+}
+
+
+/* showcase*/
+
+#showcase {
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    text-align: center;
+    height: 600px;
+    align-self: auto;
+}
+
+#showcase .showcase-content {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 56px;
+    line-height: 1.2em;
+    color: #333;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    float: right;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    max-height: 1300px;
+}
+
+.card-front,
+.card-back {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url("image/LOGO.jpg");
+    padding: 50px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    background-image: url("../image/.jpg");
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}

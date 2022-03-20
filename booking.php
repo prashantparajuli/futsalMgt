@@ -1,18 +1,50 @@
-<?php ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>booking</title>
-</head>
-<body>
-    <form name = "form1" action="./actions/insert.php" method = "post">
-        <input type="text" name="name" placeholder="name">
-        <input type="text" name="email" placeholder="email">
-        <input type="text" name="phone" placeholder="phone">
-        <input type="submit" value="submit">
-    </form>
-</body>
-</html>
+<?php include"components/navbar.php"?>
+<div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1>
+                        <span class="text-primary">Feel  </span>the <span class="text-primary"> 
+
+                             Game  </span>
+                    </h1>
+                </div>
+               <div class="controller">
+                <p >
+                   
+
+                    </div>
+                </p>
+                
+                <div class="container">
+                    <div class="card">  
+                        <div class="inner-box" id="card">
+                            
+                            <div class="card-front">
+                                <h2><span class="text-primary">Registaration</span></h2>
+                                <form action="actions/insert.php" method = "POST">
+                                    <p>Name:
+                                        <input type="text" class="input-box" name = "username" placeholder="First Name and last Name" required>
+                                    </p> 
+                                    <p>Contact number:
+                                    <input type="text" class="input-box" name = "number" placeholder="+977" required></p>
+                                    <p>Email:
+                                    <input type="email" class="input-box" name = "email" placeholder="Your Email" required>
+                                   </p>
+                                   <p>DATE:
+                                    <input type="date" class="input-box" name = "date" placeholder="mm:dd" required>
+                                   </p>
+                                   <p>Time:
+                                    <input type="time" class="input-box" name = "time" placeholder="XX:XX" required>
+                                   </p>
+                                    <button type="submit" class="btn"> 
+                                        Submit
+                                    </button>
+                                   
+                                </form>
+                                
+                                
+                                
+                            </div>
+                        </div>
+
+<?php include once('components/footer.php');?>
